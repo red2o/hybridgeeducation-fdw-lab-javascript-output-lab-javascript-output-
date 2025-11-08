@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Demostración de Output en Javascript</title>
+  <script>
+    console.log("La página ha sido cargada correctamente");
+    function mostrarNombre() {
+      alert("Oscar");
+    }
+    function actualizarTexto() {
+      document.getElementById("parrafo").innerText = "¡Texto actualizado con Javascript!";
+    }
+  </script>
+</head>
+<body>
+  <h1>Demostración de Output en Javascript</h1>
+  <button onclick="mostrarNombre()">Mostrar mi nombre</button>
+  <p id="parrafo"></p>
+  <button onclick="actualizarTexto()">Actualizar texto</button>
+</body>
+</html>
